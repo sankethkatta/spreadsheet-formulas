@@ -20,7 +20,7 @@ This formula calculates the number of days in a given month that is included in 
 
 | Dec 2019 | Jan 2020 | Feb 2020 | Mar 2020 | Apr 2020 | May 2020 |
 |----------|----------|----------|----------|----------|----------|
-|    0     |    24    |    28    |    31    |    12    |    0     |
+|    0     |    24    |    29    |    31    |    12    |    0     |
 
 
 ## Goals
@@ -94,7 +94,7 @@ Using our formula so far, here is what we have created:
 
 | Dec 2019 | Jan 2020 | Feb 2020 | Mar 2020 | Apr 2020 | May 2020 |
 |----------|----------|----------|----------|----------|----------|
-|    0     |    24    |    28    |    31    |    30    |    31    |
+|    0     |    24    |    29    |    31    |    30    |    31    |
 
 + What we have so far:
   - We have `0` for months that were before the range start date.
@@ -149,9 +149,9 @@ By subtracting our 2 formulas we are able to achieve our result as illustrated b
 
 |                          | Dec 2019 | Jan 2020 | Feb 2020 | Mar 2020 | Apr 2020 | May 2020 |
 |--------------------------|----------|----------|----------|----------|----------|----------|
-| Formula with range start |    0     |    24    |    28    |    31    |    30    |    31    |
+| Formula with range start |    0     |    24    |    29    |    31    |    30    |    31    |
 | Formula with range end   |    0     |    0     |    0     |    0     |    18    |    31    |
-| Difference of formulas   |    0     |    24    |    28    |    31    |    12    |    0     |
+| Difference of formulas   |    0     |    24    |    29    |    31    |    12    |    0     |
 
 ## Minified Formula
 
